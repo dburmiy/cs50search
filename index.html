@@ -10,14 +10,17 @@
                 <a href="adv_search.html">Advanced Search</a>
                 <a href="img_search.html">Search by Image</a>
             </div>
-            <div class="centered">
+            <div class="logo">
                 <img src="googlelogo_color_272x92dp.png" alt="Google" width="">
             </div>  
-            <div class="centered">
-                <form action="https://google.com/search">
+            <div class="form">
+                <form action="http://www.google.com/search?q=”QUERY”&btnI" method='get' target='content'>
                     <div class="input">
                         <input id='text' type="text" name="q" placeholder="Enter your search request">
-                        <input id='submit' type="submit" value="Google Search">
+                    </div>
+                    <div class="submit">
+                        <input id='btnK' name='q' type="submit" value="Google Search"/>
+                        <input id='btnI' name='btnI' type="submit" value="I'm feeling lucky"/>
                     </div>
                 </form>
             </div>

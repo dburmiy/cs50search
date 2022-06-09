@@ -5,18 +5,64 @@
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
-        <div id="menu">
-            <a href="img_search.html">Search by Image</a>
-            <a href="index.html">Search by Google</a>
-        </div>
-        <div>
-        <form action="https://images.google.com/">
-            <input id='text' type="text" name="q" value=""><br>
-            <input id='text' type="text" name="q" value=""><br>
-            <input id='text' type="text" name="q" value=""><br>
-            <input id='text' type="text" name="q" value=""><br>
-            <input id='adv_submit' type="submit" value="Advanced Search">
-        </form>
-        </div>
+        <div class="main">
+            <img id='logo_s' src="googlelogo_color_272x92dp.png" alt="Google" height="40px"/>
+            <div class="menu">
+                <a href="img_search.html">Search by Image</a>
+                <a href="index.html">Search by Google</a> 
+            </div>
+            <div class="header">
+                <p>Advanced search</p>
+            </div>
+            <div class="form" >
+                <form action="https://www.google.com/advanced_search?as_q=q&as_epq=r&as_oq=s&as_eq=t"/>
+                    <div class="form_grid">
+                        <div class="grid-item">
+                            <label id="label_header">Text</label>
+                        </div>
+                        <div class="grid-item">
+                            <label>Text</label>
+                            <input type="text">
+                        </div>
+                        <div class="grid-item">
+                            <label>Text</label>
+                            <input type="text">
+                        </div>
+                        <div class="grid-item">
+                            <label>Text</label>
+                            <input type="text">
+                        </div>
+                        <div class="grid-item">
+                            <label>Text</label>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="form_line">
+
+                    </div>
+                    <div class="form_line">
+                        
+                    </div>
+                    <div class="form_line">
+                        
+                    </div>
+                    <div class="form_line">
+                        
+                    </div>
+
+
+                <form action="https://google.com/search" method='get' name='f' target='content'>
+                    <div class="input">
+                        <input id='text' type="text" name="q" placeholder="Enter your search request">
+                        <input id='text' type="text" name="q" placeholder="Enter your search request">
+                        <input id='text' type="text" name="q" placeholder="Enter your search request">
+                        <input id='text' type="text" name="q" placeholder="Enter your search request">
+                    </div>
+                    <div class="submit">
+                        <input id='adv_submit' name='q' type="submit" value="Search"/>
+                    </div>
+                </form>
+            </div>
+        </div> 
     </body>
 </html>
